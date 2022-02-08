@@ -1,0 +1,56 @@
+.grid-1 {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-gap: 20px;
+    padding-bottom: 5%;
+  }
+  
+  /* items */
+  
+  .grid-1 div {
+    color: black;
+    padding: 5%;
+    }
+  
+  /* specific item styles */
+  
+  .item-1 {
+    background: white;
+  }
+  .item-2 {
+    background: white;
+  }
+  .item-3 {
+    background: white;
+  }
+  
+  
+  
+  /* warn against lack of browser support */
+  
+  .nope {
+    display: block;
+    color: white;
+    background: orange;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  } 
+  
+  @supports (display: grid) {
+    .nope {
+      display: none;
+    } 
+  }
+  
+  .patrocinadores{
+      width: 50%;
+      align-items: center;
+  }
+
+  
