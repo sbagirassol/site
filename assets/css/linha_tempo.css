@@ -3,13 +3,30 @@
 .linha-tempo{
     width: 400px;
     margin: auto;
+
 }
 
 .linha {
-
+  
     border-top: 2px dashed;
     border-color: blue !important;
+    color: black;
     margin:0%; padding: 30px;
+  }
+  .img-left{
+    position: absolute;
+    left: 10px;
+    width: 30%;
+    height: 30%;
+ 
+  }
+
+  .img-right{
+    position: absolute;
+    right: 10px;
+    width: 30%;
+    height: 30%;
+    margin-right:0%; padding-right: 1px;
   }
     
    
