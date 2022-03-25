@@ -1,425 +1,217 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="br">
   <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SBA Girassol</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    
-    <link rel="stylesheet" href="assets\css\simple-grid.min.css">
-    
-    <link rel="stylesheet" href="assets\css\grid_rodape.css">
-    <link rel="stylesheet" href="assets\css\navbar-top-fixed.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="assets/css/carousel.css" >
-    <link rel="stylesheet" href="assets/css/carousel.rtl.css" >
-    <link rel="stylesheet" href="assets\css\style.css">
-    <link rel="stylesheet" href="assets\css\linha_tempo.css">
-    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
+    <title>Sociedade Beneficente Alemã</title>
 
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
   </head>
-
-  
   <body>
-    <!-- Esse é o cabeçalho (header) principal que vai ser usado em todas as páginas do nosso website -->
 
     <header>
-  		<div class="site-logo">
-			<a href="http://www.sbagirassol.org.br/" class="text-black"></a>
-      <img src="assets\Imagens\logo.png" alt="sba girassol">
-		</div>
-   
-    </header>
-
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Apoio</a>
-            </li>      
+              <a class="nav-link" href="#">Apoie</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="transparencia.html">Transparência</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contato</a>
+              <a class="nav-link" href="#">Contato</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
-            <button class="btn btn-outline-success" type="submit">Doe</button>
-          </form>
         </div>
-      </div>
-    </nav>
-    
+      </nav>
+    </header>
 
-    <!-- Esse é o conteúdo principal da nossa página -->
-    <main>
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-    
+            <img class="first-slide" src="assets\Imagens\girassol_1.jpg" alt="SBA">
             <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>SBA Girassol</h1>
-                <p>Transformando vidas através da educação</p>
-                <p><a class="btn btn-lg btn-primary" href="#">DOE</a></p>
+              <div class="carousel-caption text-left">
+                <h1>Sociedade Beneficente Alemã</h1>
+                <p>Com a causa “Transformando vidas através da Educação” e com a convicção de que investir no sócio educacional é o foco para a transformação da nossa sociedade, proporcionando caminhos que favoreçam o enfrentamento das desigualdades e a busca por igualdades de oportunidades e transformação social, o Girassol passou a dar atenção ao desenvolvimento educacional de crianças e jovens da Comunidade do Grajaú.</p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-    
+            <img class="second-slide" src="assets\Imagens\girassol_2.jpg" alt="DOAR">
             <div class="container">
               <div class="carousel-caption">
-                <h1>SBA Girassol Kids</h1>
-                <p>Desenvolver de todas as nossas ações, colocamos as nossas crianças como principal eixo do nosso trabalho, respeitando suas singularidades e atuando de acordo com suas demandas pedagógicas e sociais, proporcionando situações que promovam seu desenvolvimento cognitivo, construindo sua identidade pessoal e coletiva, baseada na metodologia socioconstrutivista.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+                <h1>DOE</h1>
+                <p>Você sabia que o SBA Girassol pode receber seu Imposto de Renda devido? Dá uma olhadinha no passo a passo que preparamos para vocês! 😉
+                  Qualquer dúvida que tiver na hora de doar seu IR, pode entrar em contato conosco pelo whatsapp: (11) 5932-7721 ou (11) 99774-2254.                 
+                  Vamos juntos TRANSFORMAR VIDAS ATRAVÉS DA EDUCAÇÃO!</p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-    
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
             <div class="container">
-              <div class="carousel-caption text-end">
-                <p>O SBA Girassol Pro, tem como intuito proporcionar aos nossos alunos educação profissional, que atenda às tendências do mercado de trabalho, suprindo demandas técnicas e tecnológicas, preparando-os com qualidade para atuar nos mais diversos segmentos de cada área.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <span class="sr-only">Próximo</span>
+        </a>
       </div>
 
-      <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
+      <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-              <div class="flipper">
-                <div class="front">
-                  <div class="box box-front">
-                    <h2>Missão</h2>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="box box-back">
-                    <p>O SBA Girassol tem a missão de proporcionar às crianças, jovens e seus familiares</p>
-                  </div>
-                </div>
+          <div class="col-4">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">  	
+              <div class="flipper">  		
+                <div class="front">  			
+                  <!-- Conteúdo da frente -->
+                  <img src="assets\Imagens\v1.png" alt="Visão">
+                </div>  		
+                <div class="back">  			
+                  <!-- Conteúdo do verso -->
+                  <img src="assets\Imagens\v2.png" alt="Visão">
+                </div>  	
               </div>
-            </div>
+            </div>  
           </div>
-          <div class="col-lg-4">
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-              <div class="flipper">
-                <div class="front">
-                  <div class="box box-front">
-                    <h2>Visão</h2>
-                  </div>
-                </div>
-                <div class="back">
-                  <div class="box box-back">
-                      <p>Confiabilidade e Transparência</p>
-                      <p>Integração Indivíduo – Família – Comunidade</p>
-                      <p>Qualidade</p>
-                      <p>Respeito e Solidariedade</p>
-                      <p>Responsabilidade (pessoal, social e ambiental)</p>
-                      <p>Sustentabilidade</p>
-                  
-                  </div>
-                </div>
+          <div class="col-4">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">  	
+              <div class="flipper">  		
+                <div class="front">  			
+                  <!-- Conteúdo da frente -->
+                  <img src="assets\Imagens\M1.png" alt="Visão">
+                </div>  		
+                <div class="back">  			
+                  <!-- Conteúdo do verso -->
+                  <img src="assets\Imagens\m2.png" alt="Visão">
+                </div>  	
               </div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            
-          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
-              <div class="front">
-                <div class="box box-front">
-                  <h2>Valor</h2>
+          </div>  
+            <div class="col-4">
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">  	
+                <div class="flipper">  		
+                  <div class="front">  			
+                    <!-- Conteúdo da frente -->
+                    <img src="assets\Imagens\va1.png" alt="Visão">
+                  </div>  		
+                  <div class="back">  			
+                    <!-- Conteúdo do verso -->
+                    <img src="assets\Imagens\va2.png" alt="Visão">
+                  </div>  	
                 </div>
-              </div>
-              <div class="back">
-                <div class="box box-back">
-                  <p>O SBA Girassol se tornará referência na formação de crianças e jovens socialmente desfavorecidos, através do amparo social e educação para a vida, baseada nos princípios de responsabilidade, autonomia e solidariedade.</p>                
-                </div>
-              </div>
-            </div>
-
-        </div><!-- /.row -->
+              </div>  
+  
         
+        </div>    
+      </div>
 
-
-    
         <!-- START THE FEATURETTES -->
-    
+
         <hr class="featurette-divider">
-    
+
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Sobre a Organização</h2>
-            <p class="lead">Com o principal propósito de transformar vidas através da Educação, o SBA Girassol oferece de forma gratuita Educação Infantil para crianças de 3 a 5 anos e 11 meses, Ensino Complementar para crianças de 6 a 8 anos e Cursos Profissionalizantes para jovens a partir de 16 anos, todos em situação de vulnerabilidade social e oriundos da carente região do Grajaú, extremo sul da cidade de São Paulo.</p>
+            <h2 class="featurette-heading">AngeliKa Pohlmann<span class="text-muted"> (Fundadora do Lar Girassol) </span></h2>
+            <p class="lead">Quando fundado em 1992 pela Sra. Angelika Pohlmann, o hoje SBA Girassol, recebia o nome de Lar Social Girassol, que por sua vez, tinha como propósito, acolher crianças e adolescentes em situação de abandono ou negligência familiar.
+              Em 2003, com o intuito inicial de ofertar uma formação profissional para os jovens do Lar Social Girassol e da Comunidade, foi inaugurado o Centro Profissionalizante SBA Girassol Pro.
+              No ano de 2015, o Lar Social Girassol deixou de prestar o serviço de acolhimento, dando início a uma nova era com a criação de um Centro de Educação Infantil – SBA Girassol Kids.</p>
           </div>
           <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-    
+            <img class="featurette-image img-fluid mx-auto" src="assets\Imagens\agelika.jpg" alt="Angelika Pohlmann">
           </div>
         </div>
-    
+
         <hr class="featurette-divider">
-    
+
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">FUNDADORA</h2>
-            <p class="lead">A Sra. Angelika Pohlmann, o hoje SBA Girassol, recebia o nome de Lar Social Girassol, que por sua vez, tinha como propósito, acolher crianças e adolescentes em situação de abandono ou negligência familiar.
-              Em 2003, com o intuito inicial de ofertar uma formação profissional para os jovens do Lar Social Girassol e da Comunidade, foi inaugurado o Centro Profissionalizante SBA Girassol Pro.
-              No ano de 2015, o Lar Social Girassol deixou de prestar o serviço de acolhimento, dando início a uma nova era com a criação de um Centro de Educação Infantil – SBA Girassol Kids. </p>
+            <h2 class="featurette-heading">Sociedade Beneficente Alemã</h2>
+            <p class="lead">A Sociedade Beneficente Alemã foi fundada em 1863 com o nome de Deutscher Hülfsverein por membros ilustres da colônia alemã no Brasil que, à época, contava com menos de mil alemães dentre os cinquenta mil habitantes da cidade de São Paulo, com o objetivo de auxiliar conterrâneos carente e necessitados.
+
+              Foi com esse espírito humanitário que a SBA se manteve ao longo destes 157 anos focada em pessoas idosas, jovens e crianças, oferecendo o suporte que estes necessitavam.
+              
+              Nosso grande desafio é continuar trilhando este caminho de excelência pelos próximos anos, de forma sustentável e focados na missão de melhorar a qualidade de vida das pessoas.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-    
+            <img class="featurette-image img-fluid mx-auto" src="assets\Imagens\logo.png" alt="Sociedade Beneficente Alemã">
           </div>
         </div>
-       
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">SBA Girassol </h2>
+            <p class="lead">Com a causa “Transformando vidas através da Educação” e com a convicção de que investir no sócio educacional é o foco para a transformação da nossa sociedade, proporcionando caminhos que favoreçam o enfrentamento das desigualdades e a busca por igualdades de oportunidades e transformação social, o Girassol passou a dar atenção ao desenvolvimento educacional de crianças e jovens da Comunidade do Grajaú.
+              Somos movidos por desafios, inovações e principalmente pelo desejo de empoderar nossas crianças, jovens, famílias e comunidade, para que juntos trabalhemos em prol da melhoria da qualidade educacional, profissional e social da carente região do Grajaú/SP, ofertando de forma gratuita Educação Infantil, Ensino Complementar e Cursos Profissionalizantes para crianças e jovens em situação de vulnerabilidade social oriundos das comunidades locais.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="assets\Imagens\girassol_4.jpg" alt="SBA Girassol">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
         <!-- /END THE FEATURETTES -->
-    
+
       </div><!-- /.container -->
 
-      <hr class="featurette-divider">
-      <h1>HISTÓRICO (LINHA DO TEMPO)</h1>
-            </section>
-      <section class="linha-tempo">
-        
-        <p class="linha"> <img class="img-left" src="assets\Imagens\girassol_1.jpg">1992 - Fundado em 1992 por iniciativa da Sra. Angelika Pohlmann, inicialmente o então chamado “Lar Social Girassol” tinha como proposito acolher e cuidar de crianças e jovens encaminhados pela Vara da Infância e Juventude.<img class="img-right" src="assets\Imagens\girassol_2.jpg"></p>
-        <p class="linha">1999 – O “Lar Social Girassol” integra-se judicialmente a SBA – Sociedade Beneficente Alemã.</p>
-        
-        <p class="linha"><img class="img-left" src="assets\Imagens\girassol_1.jpg"> 2003 – Foi fundado o “Centro Profissionalizante do Lar Social Girassol” que tinha como propósito oferecer formação profissional para jovens abrigados no lar e adolescentes moradores das comunidades locais. Sendo chamado a partir de 2015 de SBA Girassol Profissionalizante.<img class="img-right" src="assets\Imagens\girassol_2.jpg"></p>
-        
-        <p class="linha"><img class="img-left" src="assets\Imagens\girassol_1.jpg">2015 – Um ano marcado por transformações, posteriormente a modificações nas leis regulamentadoras dos abrigos, optou-se pelo encerramento das atividades do Lar.
-          Decidindo-se direcionar todos os trabalhos da instituição para o âmbito educacional, inaugurando assim, a Escola de Educação Infantil SBA Girassol Kids para atender crianças de 3 a 5 anos em situação de vulnerabilidade social.</p>
-          
-        <p class="linha"><img class="img-left" src="assets\Imagens\girassol_1.jpg">2018 – Com o encerramento das atividades escolares da primeira turma de alunos do SBA Girassol Kids e com o propósito de continuar a garantir a qualidade da formação educacional ofertada a estas crianças, iniciou-se o Ensino Complementar SBA Girassol, direcionado aos ex-alunos da escola de educação infantil.</p>
-        <div>
-          <!--
-          
-          
-          <img class="img-left" src="assets\Imagens\girassol_4.jpg">-->
-        </div>
-      </section>
 
-      <section class="patrocinadores">
-        <h4>PARCEIRO E PATROCINADORES</h4>
-        <img src="assets\Imagens\parceiros_e_apoiadores.png" alt="patrocinadore e apoiadores">
-        
-      </section>
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; Copyright © 2020 Sociedade Beneficente Alemã.&middot; <a href="#">Todos os direitos reservados</a> &middot; <a href="#">Termos</a></p>
+      </footer>
     </main>
 
-    <!-- Esse é o rodapé principal que vai ser usado em todas as páginas do nosso website -->
-    <footer id="dk-footer" class="dk-footer">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-12 col-lg-4">
-                  <div class="dk-footer-box-info">
-                     <a href="index.html" class="footer-logo">
-                     <!---      <img src="assets\Imagens\logo_transparente_branco.png" alt="footer_logo" class="img-fluid">
-                      </a>
-                      <p class="footer-info-text">
-                         Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
-                      </p>-->
-                       <div class="footer-social-link">
-                          <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
-                          <ul>
-                              <li>
-                                  <a href="https://pt-br.facebook.com/sbagirassol">
-                                      <i class="fa fa-facebook"></i>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="https://instagram.com/sba.girassol?utm_medium=copy_link">
-                                      <i class="fa fa-twitter"></i>
-                                  </a>
-                              </li>
-                          </ul>
-                      </div>
-                      <!-- End Social link -->
-                  </div>
-                  <!-- End Footer info -->
-                  <div class="footer-awarad">
-                      <!--<img src="assets\Imagens\logo_transparente_branco.png" alt="">-->
-                  </div>
-              </div>
-              <!-- End Col -->
-              <div class="col-md-12 col-lg-8">
-                  <div class="row">
-                      <div class="col-md-6">
-                          <div class="contact-us">
-                              <div class="contact-icon">
-                                  <i class="fa fa-map-o" aria-hidden="true"></i>
-                              </div>
-                              <!-- End contact Icon -->
-                              <div class="contact-info">
-                                  <h3>SBA Girassol</h3>
-                                  <p>Rua Ricardo Macedo, 05/208</p>
-                              </div>
-                              <!-- End Contact Info -->
-                          </div>
-                          <!-- End Contact Us -->
-                      </div>
-                      <!-- End Col -->
-                      <div class="col-md-6">
-                          <div class="contact-us contact-us-last">
-                              <div class="contact-icon">
-                                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                              </div>
-                              <!-- End contact Icon -->
-                              <div class="contact-info">
-                                  <h3>+55 11 5932-7721</h3>
-                              </div>
-                              <!-- End Contact Info -->
-                          </div>
-                          <!-- End Contact Us -->
-                      </div>
-                      <!-- End Col -->
-                  </div>
-                  <!-- End Contact Row -->
-                  <div class="row">
-                      <div class="col-md-12 col-lg-6">
-                          <div class="footer-widget footer-left-widget">
-                              <div class="section-heading">
-                                  <h3>Mapa do Site</h3>
-                                  <span class="animate-border border-black"></span>
-                              </div>
-                              <ul>
-                                  <li>
-                                      <a href="#">Home</a>
-                                  </li>
-                                  <li>
-                                      <a href="#">Projetos</a>
-                                  </li>
-                                  <li>
-                                      <a href="#">Apoio</a>
-                                  </li>
-                                  <li>
-                                      <a href="#">Trasnparência</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">Contato</a>
-                                </li>
-                              </ul>
-                              <ul>
-
-                          </div>
-                          <!-- End Footer Widget -->
-                      </div>
-                      <!-- End col -->
-                      <div class="col-md-12 col-lg-6">
-                          <div class="footer-widget">
-                              <div class="section-heading">
-                                  <h3>Inscreva-se</h3>
-                                  <span class="animate-border border-black"></span>
-                              </div>
-                              <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                              Transformando vidas através da Educação</p>
-                              <form action="#">
-                                  <div class="form-row">
-                                      <div class="col dk-footer-form">
-                                          <input type="email" class="form-control" placeholder="Email Address">
-                                          <button type="submit">
-                                              <i class="fa fa-send"></i>
-                                          </button>
-                                      </div>
-                                  </div>
-                              </form>
-                              <!-- End form -->
-                          </div>
-                          <!-- End footer widget -->
-                      </div>
-                      <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-              </div>
-              <!-- End Col -->
-          </div>
-          <!-- End Widget Row -->
-      </div>
-      <!-- End Contact Container -->
-
-
-      <div class="copyright">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-6">
-                    <p>
-                      Sociedade Beneficente Alemã &copy;
-                      <script>
-                        document.write(new Date().getFullYear());
-                      </script>
-                      Todos os direitos reservados
-                    </p>
-                  </div>
-                  <!-- End Col -->
-                  <div class="col-md-6">
-                      <div class="copyright-menu">
-                          <ul>
-                              <li>
-                                  <a href="#">Home</a>
-                              </li>
-                              <li>
-                                  <a href="#">Terms</a>
-                              </li>
-                              <li>
-                                  <a href="#">Privacy Policy</a>
-                              </li>
-                              <li>
-                                  <a href="#">Contact</a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <!-- End col -->
-              </div>
-              <!-- End Row -->
-          </div>
-          <!-- End Copyright Container -->
-      </div>
-      <!-- End Copyright -->
-      <!-- Back to top -->
-      <div id="back-to-top" class="back-to-top">
-          <button class="btn btn-dark" title="Back to Top" style="display: block;">
-              <i class="fa fa-angle-up"></i>
-          </button>
-      </div>
-      <!-- End Back to top -->
-</footer>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
   </body>
 </html>

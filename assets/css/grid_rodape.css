@@ -4,7 +4,7 @@
 }
 p {
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+/*    font-size: 16px;*/
   color:white;
     line-height: 28px;
 }
@@ -93,7 +93,7 @@ p {
     .dk-footer .contact-us.contact-us-last {
       margin-left: -80px; }
   .dk-footer .contact-icon i {
-    font-size: 24px;
+    /*font-size: 24px;*/
     top: -15px;
     position: relative;
     color:#007bff; }
@@ -154,7 +154,7 @@ p {
   align-items: center; }
   .footer-awarad p {
     color: #fff;
-    font-size: 24px;
+    /*font-size: 24px;*/
     font-weight: 700;
     margin-left: 20px;
     padding-top: 15px; }
@@ -169,7 +169,7 @@ p {
   margin-bottom: 35px; }
 
 .footer-widget h3 {
-  font-size: 24px;
+  /*font-size: 24px;*/
   color: #fff;
   position: relative;
   margin-bottom: 15px;
@@ -203,32 +203,6 @@ p {
   display: block;
   clear: both; }
 
-.dk-footer-form {
-  position: relative; }
-  .dk-footer-form input[type=email] {
-    padding: 14px 28px;
-    border-radius: 50px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E; }
-  .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::-webkit-input-placeholder {
-    color: #878787;
-    font-size: 14px; }
-  .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::placeholder {
-    color: #878787;
-    font-size: 14px; }
-  .dk-footer-form button[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 12px 24px 12px 17px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border: 1px solid #007bff;
-    background: #007bff;
-    color: #fff; }
-  .dk-footer-form button:hover {
-    cursor: pointer; }
-
 /* ==========================
 
     Contact
@@ -252,7 +226,7 @@ p {
 .contact-icon {
   position: absolute; }
   .contact-icon i {
-    font-size: 36px;
+    /*font-size: 36px;*/
     top: -5px;
     position: relative;
     color: #007bff; }
@@ -261,12 +235,13 @@ p {
   margin-left: 75px;
   color: #fff; }
   .contact-info h3 {
-    font-size: 20px;
+    /*font-size: 20px;*/
     color: #fff;
     margin-bottom: 0; }
 
 .copyright {
   padding: 28px 0;
+  font-size: xx-small;
   margin-top: 55px;
   background-color: #202020;
  
@@ -314,73 +289,6 @@ p {
       background: #FA6742;
       border-color: #FA6742; }
 
-/*
-footer{  
-  padding: 1% 1% 1% 1%;
-  color: white;
-  background: rgb(6, 73, 6);
-  font-family: "Varela Round", sans-serif;
-  font-size: small;
-}
 
-
-.logo_rodape{
-  height: 20%;
-  width: 20%;
-
-
-}
-.redes_sociais{
-  font-size: 10px;
-}
-
-.mapa{
-  padding-top: 1%;
-  right: 5%;
-  text-align: right;
-}
-.copyright{
-  padding-top: 1%;
-  font-size: x-small;
-  text-align: center;
-}
-.grid-2 {
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-    grid-template-columns: repeat(4, 33.33%);
-    grid-gap: 20px;
-    padding-bottom: 5%;
-    text-align: center;
-  }
-  
-  /* items 
-  
-  .grid-2 div {
-    color: white;
-    font-size: 10px;
-    padding: 1%;
-    }
-   
-  
-  /* warn against lack of browser support 
-  
-  .nope {
-    display: block;
-    color: white;
-    background: orange;
-    text-align: center;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  } 
-  
-  @supports (display: grid) {
-    .nope {
-      display: none;
-    } 
-  }*/
   
   

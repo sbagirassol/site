@@ -25,6 +25,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  background-color: #777;
 }
 .carousel-item > img {
   position: absolute;
@@ -46,12 +47,10 @@ body {
 .marketing h2 {
   font-weight: 400;
 }
-/* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-/* rtl:end:ignore */
 
 
 /* Featurettes
@@ -65,7 +64,6 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  /* rtl:remove */
   letter-spacing: -.05rem;
 }
 
