@@ -17,7 +17,7 @@ html {
   width: 100%;
   height: 100%;
   background: white;
-  color: black;
+  color:darkgreen;
 }
 
 img {
@@ -146,3 +146,128 @@ img {
 
 /* verso inicialmente escondido */
 .back { transform: rotateY(180deg); }
+
+.foto3x4, .logo_kids, .logo_pro {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+ }
+ .Diretoria, .kids_turmas, .row{
+  padding-top: 10%;
+  text-align: center;
+
+ }
+
+.mapa, .formulario{
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color:black;
+  text-align: center;
+}
+.endereço_contato{
+  align-content: center;
+}
+
+.logo{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.featurette-heading, .titulo{
+  font-weight: bold;
+  color: darkgreen;
+}
+.redes_sociais{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.facebook, .instagram, .whatsapp{
+  padding-left:5%;
+}
+
+.rodape {
+ background-color: darkgreen;
+ color: white;
+
+
+} 
+.nav{
+  text-decoration: none;
+  color: white;
+}
+
+.nav:hover{
+  color: black;
+}
+
+.video-abertura{
+  padding-top: 8%;
+  opacity : 0.4;
+}
+
+.patrocinadores{
+  opacity : 0.6;
+  max-height: 80%;
+  max-width: 80%;
+  }
+
+.video-abertura:hover, .video-abertura:visited, .video-abertura:active, .patrocinadores:hover{
+  opacity : 1;
+}
+
+.facebook_icon, .instagram_icon, .whatsapp_icon{
+  max-width: 20%;
+  max-height: 20%;
+}
+
+
+.patrocinadores-apoiadores{
+  padding-bottom: 30%;
+}
+.titulo-projetos{
+  padding-top: 10%;
+  text-align: justify;
+}
+
+.Depoimento{
+  padding-top: 10%;
+}
+
+
+.dep1{
+  background-color: darkred;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: center;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.dep2{
+  background-color: darkblue;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: double;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.dep3{
+  background-color: darkgreen;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: double;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+.dep3:hover, .dep1:hover, .dep2:hover{
+  font-size: 150%;
+
+}

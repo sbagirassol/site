@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Sociedade Beneficente Alemã</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets\css\formulario.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+
+
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <img class="site-logo" src="assets\Imagens\logo.png" alt="SBA Girassol logo">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Projetos.html">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Apoie.html">Apoie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transparencia.html">Transparência</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div class="mapa" >
+        <h2 class="titulo">Localização</h2>
+        <div class="row featurette">
+          <div class="col-6">  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.8561199571016!2d-46.68684513935632!3d-23.75763887952635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f4b2247e149%3A0x9c7cdce16c8cbad7!2sSBA%20GIRASSOL!5e0!3m2!1spt-BR!2sbr!4v1648567112655!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-6">
+            <div class="endereço_contato">
+              <img class="logo" src="assets\Imagens\logo2.png" alt="SBA Girassol logo">
+              <h5>Tel.: (11) 5932-7721 / (11) 5528-4996</h5>
+              <h5>E-mail:<a href="mailto:contato@sbagirassol.org.br">contato@sbagirassol.org.br</a></h5>
+              <h5>Endereço: Rua Ricardo Macedo, 05/208 </h5>
+              <h5>Parque Sã Miguel, São Paulo -SP</h5>
+              <h5>CEP: 04855-020</h5>
+            </div>  
+          </div>
+        </div>
+      </div>  
+    
+
+    <div class="formulario">  
+      <form name="meu_form">
+
+        <h2 class="titulo">Entre em contato</h2>
+      
+        <label for="nome">Nome.:</label>
+        <input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome" />
+        
+      
+        <label for="fone">Fone...:</label>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="emailid" placeholder="e-mail@mail.com" name="email" />
+        
+      
+        <textarea placeholder="Deixe sua opnião"></textarea>
+      
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+      </form>
+    </div>
+
+
+
+
+      <!-- FOOTER -->
+      <footer class="rodape">
+        <div class="row">
+          <div class="col-4">
+            <img class="logo-branco" src="assets\Imagens\logo-branco.png" alt="SBA Girassol logo">
+          </div>
+          <div class="col-4">
+            <p>Com a causa “Transformando vidas através da Educação” e com a convicção de que investir no sócio educacional é o foco para a transformação da nossa sociedade, proporcionando caminhos que favoreçam o enfrentamento das desigualdades e a busca por igualdades de oportunidades e transformação social, o Girassol passou a dar atenção ao desenvolvimento educacional de crianças e jovens da Comunidade do Grajaú.</p>
+            
+          </div>
+          <div class="col-4">
+            <h3>Redes Sociais</h3>
+            <ul class="redes_sociais">
+              <a href="https://pt-br.facebook.com/sbagirassol" target="_blank" ><img class="facebook_icon" src="assets\icon\facebook.png"></a>
+              <a href="https://instagram.com/sba.girassol" target="_blank" ><img class="instagram_icon" src="assets\icon\instagram.png"></span></a>
+              <a href="https://wa.me/551159327721" target="_blank" ><img class="whatsapp_icon" src="assets\icon\whatsapp.png"></a>
+              
+            </ul>
+          </div>
+
+        </div>
+        <div class="text-center" style="background-color: #07420c; padding: 10px;" >
+          <p>
+            Sociedade Beneficente Alemã &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Todos os direitos reservados
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142295544-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'UA-142295544-1');
+	</script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
